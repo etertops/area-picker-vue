@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <vue-distpicker :province="province" :level="3" :city="city" :county="county" @finish="addressPickerFinish"></vue-distpicker>
+    <area-picker :province="province" :level="3" :city="city" :county="county" @finish="addressPickerFinish"></area-picker>
     <img src="./assets/logo.png">
     <h1>{{ msg }}</h1>
     <h2>Essential Links</h2>

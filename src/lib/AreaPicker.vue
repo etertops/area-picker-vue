@@ -2386,7 +2386,7 @@ let cityData = {
     82e4: {820001: '花地瑪堂區', 820002: '花王堂區', 820003: '望德堂區', 820004: '大堂區', 820005: '風順堂區', 820006: '嘉模堂區', 820007: '路氹填海區', 820008: '聖方濟各堂區'}
   }
 export default {
-  name: 'VueDistpicker',
+  name: 'AreaPicker',
   props: {
     province: {
       type: String,

@@ -4,16 +4,16 @@
  * Date: 2018/2/28
  * Time: 10:34
  */
-import VueDistpicker from './VueDistpicker'
+import AreaPicker from './AreaPicker'
 
-const distPicker = {
+const areaPicker = {
   install (Vue, options) {
-    Vue.component(VueDistpicker.name, VueDistpicker)
+    Vue.component(AreaPicker.name, AreaPicker)
   }
 }
 
 if (typeof window !== 'undefined' && window.Vue) {
-  window.Vue.use(distPicker);
+  window.Vue.use(areaPicker);
 }
 
-export default distPicker
+export default areaPicker
