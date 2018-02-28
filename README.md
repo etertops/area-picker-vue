@@ -9,8 +9,8 @@
 npm install area-picker-vue --save
 
 # use in main.js
-import area-picker-vue in 'area-picker-vue'
-Vue.use(area-picker-vue)
+import AreaPicker in 'area-picker-vue'
+Vue.use(AreaPicker)
 
 # use in vue component
 <area-picker></area-picker>
