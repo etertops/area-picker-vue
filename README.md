@@ -28,7 +28,7 @@ Vue.use(AreaPicker)
 
 ## methods
 | name | return | describe |
-| ------------- |:-------------:| :---------------|
+| :-------------: |:-------------:| :---------------:|
 | finish | Array | select over call back |
 
 
