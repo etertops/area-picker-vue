@@ -19,7 +19,7 @@ Vue.use(area-picker-vue)
 
 ## property
 | name/名称 | type/类型 | default/默认值 |
-| ---------- | :---------- : | ----------: |
+| :---------------: |:---------------:| :---------------:|
 | province | String | 北京市 |
 | city | String | 北京市 |
 | county | String | 东城区 |
@@ -27,8 +27,8 @@ Vue.use(area-picker-vue)
 
 
 ## methods
-| name | return |describe |
-| ---------- | :---------- : | ----------: |
+| name | return | describe |
+| ------------- |:-------------:| :---------------|
 | finish | Array | select over call back |
 
 
@@ -52,4 +52,3 @@ Vue.use(area-picker-vue)
 ]
 ```
 
-For detailed explanation on how things work, consult the [docs for vue-loader](http://vuejs.github.io/vue-loader).
