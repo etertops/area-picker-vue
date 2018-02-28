@@ -7,7 +7,7 @@ module.exports = {
   output: {
     path: path.resolve(__dirname, './dist'),
     publicPath: '/dist/',
-    filename: 'vue-distpicker.js',
+    filename: 'area-picker-vue.js',
     // filename: 'build.js',
     library: 'distPicker',
     libraryTarget: 'umd',

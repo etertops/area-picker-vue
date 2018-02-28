@@ -1,7 +1,6 @@
 <template>
   <div id="app">
     <area-picker :province="province" :level="3" :city="city" :county="county" @finish="addressPickerFinish"></area-picker>
-    <img src="./assets/logo.png">
     <h1>{{ msg }}</h1>
     <h2>Essential Links</h2>
     <ul>
