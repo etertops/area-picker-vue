@@ -13,9 +13,9 @@ import AreaPicker from 'area-picker-vue'
 Vue.use(AreaPicker)
 
 # use in vue component
-<area-picker></area-picker>
-<area-picker province="湖南省" :level="3" :city="长沙市" 
-  :county="芙蓉区" @finish="areaPickerFinish"></area-picker>
+<area-picker />
+<area-picker :province="湖南省" :level="3" :city="长沙市" 
+  :county="芙蓉区" @finish="areaPickerFinish" />
 ```
 
 ## property
